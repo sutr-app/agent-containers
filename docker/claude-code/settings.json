@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": ["Write(/tmp/**)"]
+  },
+  "marketplace": {
+    "repositories": [
+      "jobworkerp-rs/jobworkerp-workflow-plugin"
+    ]
+  },
+  "enabledPlugins": [
+    "jobworkerp-workflow@jobworkerp-workflow-plugin"
+  ]
+}
